@@ -1,0 +1,8 @@
+{
+  "name": "CmdPanel",
+  "description": "Desktop command widget — sits on the wallpaper layer, never in Alt+Tab.",
+  "uuid": "cmdpanel@cmdpanel.github.io",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1,
+  "url": "https://github.com/cmdpanel/cmdpanel"
+}

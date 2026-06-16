@@ -5,17 +5,19 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cmdpanel"
 version = "0.1.0"
-description = "Minimal desktop command widget for GNOME/Wayland"
+description = "GNOME Shell desktop widget daemon — CmdPanel"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.11"
 
 # PyGObject is a system package on Fedora — not listed here.
-# Install it via: sudo dnf install python3-gobject gtk4 libadwaita
+# Install it via: sudo dnf install python3-gobject dbus-python
 dependencies = []
 
 [project.scripts]
-cmdpanel = "cmdpanel.__main__:main"
+# The only entry point is the DBus daemon.
+# 'cmdpanel' GTK app is fully removed.
+cmdpaneld = "cmdpanel.daemon:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

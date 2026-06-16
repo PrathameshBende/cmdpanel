@@ -1,1 +1,1 @@
-# CmdPanel — minimal desktop command widget for GNOME/Wayland
+# CmdPanel — GNOME Shell desktop widget daemon
