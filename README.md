@@ -1,5 +1,9 @@
 # CmdPanel
 
+<p align="center">
+  <img src="assets/UI.png" alt="CmdPanel Screenshot" width="900">
+</p>
+
 A floating desktop widget for GNOME Shell that lets you run shell commands with a single click — no terminal, no popups, output shown inline right on your desktop.
 
 ---
